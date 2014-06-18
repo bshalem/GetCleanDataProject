@@ -21,6 +21,10 @@ run_analysis <- function(rootdir) {
     # activity column descriptive names
     activity <- read.table(paste(rootdir, "\\activity_labels.txt", sep=""))
     alldata$Activity <- unlist(sapply(alldata$Activity, function(x) activity$V2[x]))
+    # summarization
+    tidydata <- aggregate(alldata, by=list(ActivityLabel=alldata$Activity, SubjectId=alldata$ObjectId), FUN=mean)
+    tidydata[, c("Activity", "ObjectId")] <- list(NULL)
+    tidydata <- tidydata[, c(2,1,3:ncol(tidydata))]
     # write tidy data
-    write.table(alldata, paste(rootdir, "\\UCI HDR Tidy Dataset.txt", sep=""))
+    write.table(tidydata, paste(rootdir, "\\UCI HDR Tidy Dataset.txt", sep=""), sep=" ", row.names=FALSE)
 }
