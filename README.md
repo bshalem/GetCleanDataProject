@@ -28,7 +28,7 @@ obtained.
 Then, I combine the pruned train and test data frames, row
 wise, into a single data frame. Original column names are further
 cleaned up, specifically removing instances of open and close 
-parens (e.g. ()). Subsequently, the numerical activity 
+parenthesis (e.g. ()). Subsequently, the numerical activity 
 labels are substituted with the descriptive version fetched from
 activity_labels.txt.
 
@@ -40,13 +40,17 @@ out to a text file.
 2. What assumptions have been made?
 
 In extracting the subset of features that pertain to any of
-of mean or standard deviation measurements, I unifromly
+of mean or standard deviation measurements, I uniformly
 searched for the 'mean|std' pattern in the feature name. This
 could certainly be improved with a broader regular expression,
 and further filter out instances of 'meanFreq' and 'stdFreq'
 from the feature vector.
 
 3. Why things were done a certain way?
+
+I have thought there was little merit to use download.file() 
+in the script, on the original data zip file, since the
+zip was archived manually on my desktop.
 
 I considered initially removing the hyphens (-) from column 
 names to better comply with data naming conventions. I ended
@@ -62,11 +66,15 @@ aggregate function.
 
 4. Where did the original data obtained?
 
+The original data was obtained from here:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+
 5. How to run the script?
 
-- Set the working directory to the parent folder of the data set folder.
+- Set the working directory to the parent folder of the data 
+  set folder.
 - source("run_analysis.R")
 - library(plyr)
 - run_analysis("UCI HAR Dataset")
-- The script produces the tidy data set file "UCI HAR Tidy Dataset.txt" 
-in the root directory.
+- The script produces the tidy data set file 
+  "UCI HAR Tidy Dataset.txt" in the root directory.
