@@ -6,7 +6,7 @@ Smartphone Accelerator Data Dictionary
 * __SubjectId__ Volunteer id for the experiments (1-30)
 * __ActivityLabel__ Activity label one of: 
     - WALKING
-    - WALKING_UPSTAIS
+    - WALKING_UPSTAIRS
     - WALKING_DOWNSTAIRS
     - SITTING
     - STANDING
@@ -14,10 +14,10 @@ Smartphone Accelerator Data Dictionary
     
 ### Time domain features
 
-* __tBodyAcc-mean-X__ | Triaxial accelerator body, estimated mean time
+* __tBodyAcc-mean-X__ Triaxial accelerator body, estimated mean time
 * __tBodyAcc-mean-Y__ 
 * __tBodyAcc-mean-Z__ 
-* __tBodyAcc-std-X__ | Triaxial accelerator body, estimated standard deviation time
+* __tBodyAcc-std-X__ Triaxial accelerator body, estimated standard deviation time
 * __tBodyAcc-std-Y__
 * __tBodyAcc-std-Z__ 
 * __tGravityAcc-mean-X__ Triaxial accelerator gravity, estimated mean time
@@ -86,14 +86,14 @@ Smartphone Accelerator Data Dictionary
 * __fBodyGyro-meanFreq-Z__ 
 * __fBodyAccMag-mean__ Accelerator body, estimated mean magnitude 
 * __fBodyAccMag-std__ Accelerator body, estimated standard deviation magnitude 
-* __fBodyAccMag-meanFreq__ Accelerator body, estimated mean magnitude
-* __fBodyBodyAccJerkMag-mean__ Accelerator body, estimated standard deviation magnitude
-* __fBodyBodyAccJerkMag-std__ 
-* __fBodyBodyAccJerkMag-meanFreq__
-* __fBodyBodyGyroMag-mean__
-* __fBodyBodyGyroMag-std__
-* __fBodyBodyGyroMag-meanFreq__ 
-* __fBodyBodyGyroJerkMag-mean__
-* __fBodyBodyGyroJerkMag-std__
-* __fBodyBodyGyroJerkMag-meanFreq__
+* __fBodyAccMag-meanFreq__ Accelerator body, estimated mean frequency
+* __fBodyBodyAccJerkMag-mean__ Accelerator body jerk, estimated mean magnitude
+* __fBodyBodyAccJerkMag-std__ Accelerator body jerk, estimated standard deviation magnitude
+* __fBodyBodyAccJerkMag-meanFreq__ Accelerator body jerk, estimated mean frequency
+* __fBodyBodyGyroMag-mean__ Gyroscope body, estimated mean magnitude
+* __fBodyBodyGyroMag-std__ Gyroscope body, estimated standard deviation magnitude
+* __fBodyBodyGyroMag-meanFreq__ Gyroscope body, estimated mean frequency
+* __fBodyBodyGyroJerkMag-mean__ Gyroscope body jerk, estimated mean magnitude
+* __fBodyBodyGyroJerkMag-std__ Gyroscope body jerk, estimated standard deviation magnitude
+* __fBodyBodyGyroJerkMag-meanFreq__ Gyroscope body jerk, estimated mean frequency
 
