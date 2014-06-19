@@ -1,85 +1,85 @@
-Smartphone Accelerator Data - Variable Dictionary
+Smartphone Accelerator Data Dictionary
 ========================================================
 
-* SubjectId
-* ActivityLabel 
-* tBodyAcc-mean-X
-* tBodyAcc-mean-Y 
-* tBodyAcc-mean-Z 
-* tBodyAcc-std-X
-* tBodyAcc-std-Y
-* tBodyAcc-std-Z 
-* tGravityAcc-mean-X 
-* tGravityAcc-mean-Y 
-* tGravityAcc-mean-Z 
-* tGravityAcc-std-X
-* tGravityAcc-std-Y
-* tGravityAcc-std-Z
-* tBodyAccJerk-mean-X 
-* tBodyAccJerk-mean-Y 
-* tBodyAccJerk-mean-Z 
-* tBodyAccJerk-std-X 
-* tBodyAccJerk-std-Y 
-* tBodyAccJerk-std-Z 
-* tBodyGyro-mean-X 
-* tBodyGyro-mean-Y 
-* tBodyGyro-mean-Z 
-* tBodyGyro-std-X 
-* tBodyGyro-std-Y 
-* tBodyGyro-std-Z 
-* tBodyGyroJerk-mean-X
-* tBodyGyroJerk-mean-Y
-* tBodyGyroJerk-mean-Z 
-* tBodyGyroJerk-std-X
-* tBodyGyroJerk-std-Y
-* tBodyGyroJerk-std-Z 
-* tBodyAccMag-mean
-* tBodyAccMag-std 
-* tGravityAccMag-mean 
-* tGravityAccMag-std 
-* tBodyAccJerkMag-mean
-* tBodyAccJerkMag-std 
-* tBodyGyroMag-mean 
-* tBodyGyroMag-std
-* tBodyGyroJerkMag-mean
-* tBodyGyroJerkMag-std 
-* fBodyAcc-mean-X 
-* fBodyAcc-mean-Y 
-* fBodyAcc-mean-Z 
-* fBodyAcc-std-X
-* fBodyAcc-std-Y 
-* fBodyAcc-std-Z 
-* fBodyAcc-meanFreq-X
-* fBodyAcc-meanFreq-Y
-* fBodyAcc-meanFreq-Z 
-* fBodyAccJerk-mean-X 
-* fBodyAccJerk-mean-Y 
-* fBodyAccJerk-mean-Z
-* fBodyAccJerk-std-X 
-* fBodyAccJerk-std-Y 
-* fBodyAccJerk-std-Z 
-* fBodyAccJerk-meanFreq-X 
-* fBodyAccJerk-meanFreq-Y 
-* fBodyAccJerk-meanFreq-Z
-* fBodyGyro-mean-X
-* fBodyGyro-mean-Y 
-* fBodyGyro-mean-Z 
-* fBodyGyro-std-X 
-* fBodyGyro-std-Y
-* fBodyGyro-std-Z 
-* fBodyGyro-meanFreq-X 
-* fBodyGyro-meanFreq-Y 
-* fBodyGyro-meanFreq-Z 
-* fBodyAccMag-mean
-* fBodyAccMag-std
-* fBodyAccMag-meanFreq
-* fBodyBodyAccJerkMag-mean
-* fBodyBodyAccJerkMag-std 
-* fBodyBodyAccJerkMag-meanFreq
-* fBodyBodyGyroMag-mean
-* fBodyBodyGyroMag-std
-* fBodyBodyGyroMag-meanFreq 
-* fBodyBodyGyroJerkMag-mean 
-* fBodyBodyGyroJerkMag-std
-* fBodyBodyGyroJerkMag-meanFreq
+* __SubjectId__
+* __ActivityLabel__ 
+* __tBodyAcc-mean-X__ triaxial
+* __tBodyAcc-mean-Y__ 
+* __tBodyAcc-mean-Z__ 
+* __tBodyAcc-std-X__ triaxial
+* __tBodyAcc-std-Y__
+* __tBodyAcc-std-Z__ 
+* __tGravityAcc-mean-X__ triaxial
+* __tGravityAcc-mean-Y__ 
+* __tGravityAcc-mean-Z__ 
+* __tGravityAcc-std-X__ triaxial
+* __tGravityAcc-std-Y__
+* __tGravityAcc-std-Z__
+* __tBodyAccJerk-mean-X__ triaxial
+* __tBodyAccJerk-mean-Y__ 
+* __tBodyAccJerk-mean-Z__ 
+* __tBodyAccJerk-std-X__ triaxial
+* __tBodyAccJerk-std-Y__ 
+* __tBodyAccJerk-std-Z__ 
+* __tBodyGyro-mean-X__ triaxial
+* __tBodyGyro-mean-Y__
+* __tBodyGyro-mean-Z__ 
+* __tBodyGyro-std-X__ triaxial
+* __tBodyGyro-std-Y__ 
+* __tBodyGyro-std-Z__ 
+* __tBodyGyroJerk-mean-X__ triaxial
+* __tBodyGyroJerk-mean-Y__
+* __tBodyGyroJerk-mean-Z__ 
+* __tBodyGyroJerk-std-X__ triaxial
+* __tBodyGyroJerk-std-Y__
+* __tBodyGyroJerk-std-Z__ 
+* __tBodyAccMag-mean__
+* __tBodyAccMag-std__
+* __tGravityAccMag-mean__ 
+* __tGravityAccMag-std__ 
+* __tBodyAccJerkMag-mean__
+* __tBodyAccJerkMag-std__ 
+* __tBodyGyroMag-mean__ 
+* __tBodyGyroMag-std__
+* __tBodyGyroJerkMag-mean__
+* __tBodyGyroJerkMag-std__ 
+* __fBodyAcc-mean-X__ triaxial
+* __fBodyAcc-mean-Y__ 
+* __fBodyAcc-mean-Z__ 
+* __fBodyAcc-std-X__ triaxial
+* __fBodyAcc-std-Y__ 
+* __fBodyAcc-std-Z__ 
+* __fBodyAcc-meanFreq-X__ triaxial
+* __fBodyAcc-meanFreq-Y__
+* __fBodyAcc-meanFreq-Z__
+* __fBodyAccJerk-mean-X__ triaxial
+* __fBodyAccJerk-mean-Y__
+* __fBodyAccJerk-mean-Z__
+* __fBodyAccJerk-std-X__ triaxial
+* __fBodyAccJerk-std-Y__ 
+* __fBodyAccJerk-std-Z__ 
+* __fBodyAccJerk-meanFreq-X__ triaxial
+* __fBodyAccJerk-meanFreq-Y__ 
+* __fBodyAccJerk-meanFreq-Z__
+* __fBodyGyro-mean-X__ triaxial
+* __fBodyGyro-mean-Y__ 
+* __fBodyGyro-mean-Z__ 
+* __fBodyGyro-std-X__ triaxial
+* __fBodyGyro-std-Y__
+* __fBodyGyro-std-Z__ 
+* __fBodyGyro-meanFreq-X__ triaxial
+* __fBodyGyro-meanFreq-Y__ 
+* __fBodyGyro-meanFreq-Z__ 
+* __fBodyAccMag-mean__
+* __fBodyAccMag-std__
+* __fBodyAccMag-meanFreq__
+* __fBodyBodyAccJerkMag-mean__
+* __fBodyBodyAccJerkMag-std__ 
+* __fBodyBodyAccJerkMag-meanFreq__
+* __fBodyBodyGyroMag-mean__
+* __fBodyBodyGyroMag-std__
+* __fBodyBodyGyroMag-meanFreq__ 
+* __fBodyBodyGyroJerkMag-mean__
+* __fBodyBodyGyroJerkMag-std__
+* __fBodyBodyGyroJerkMag-meanFreq__
 
